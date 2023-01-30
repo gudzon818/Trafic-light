@@ -19,15 +19,15 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="Ca3-TB-dDx">
                                 <rect key="frame" x="110" y="45" width="100" height="370"/>
                                 <subviews>
-                                    <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wdy-SW-ur2">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wdy-SW-ur2">
                                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                     </view>
-                                    <view alpha="0.20000000000000001" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="rcW-Z1-iv5">
+                                    <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="rcW-Z1-iv5">
                                         <rect key="frame" x="0.0" y="135" width="100" height="100"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                     </view>
-                                    <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tow-D0-QVo">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tow-D0-QVo">
                                         <rect key="frame" x="0.0" y="270" width="100" height="100"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                     </view>
@@ -43,8 +43,7 @@
                                     <color key="titleShadowColor" systemColor="systemIndigoColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="startButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="2cn-IF-8bg"/>
-                                    <action selector="startButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FLE-yO-GyI"/>
+                                    <action selector="startButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="2jL-XX-hJQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -63,7 +62,7 @@
                     <connections>
                         <outlet property="greenSection" destination="Tow-D0-QVo" id="kMZ-al-W56"/>
                         <outlet property="redSection" destination="Wdy-SW-ur2" id="QBG-oC-kxs"/>
-                        <outlet property="startButton" destination="GKY-KE-0ie" id="FAG-TL-QTC"/>
+                        <outlet property="startButton" destination="GKY-KE-0ie" id="ni2-Ti-KCh"/>
                         <outlet property="yellowSection" destination="rcW-Z1-iv5" id="Tvz-zO-f5Y"/>
                     </connections>
                 </viewController>
